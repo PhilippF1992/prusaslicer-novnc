@@ -62,7 +62,7 @@ COPY menu.xml /etc/xdg/openbox/
 COPY supervisord.conf /etc/
 
 # HTTP Port
-EXPOSE 8080
+EXPOSE 80
 
 # VNC Port
 EXPOSE 5900
